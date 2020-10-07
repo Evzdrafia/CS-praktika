@@ -13,7 +13,9 @@ namespace _01y
       myList.Add("Third");
       myList.Add("7");
       myList.Add("bird");
-      myList.Add("Thud");
+      for(int i = 0; i < 5; i++) { 
+      myList.Add("Ilusha");
+      }
       foreach (string item in myList)
       {
         Console.WriteLine("Unsorted: {0}", item);
